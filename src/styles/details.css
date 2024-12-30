@@ -1,0 +1,60 @@
+.apply-page {
+    background: #f4f4f9;
+    padding: 45px;
+    border-radius: 14px;
+    max-width: 750px;
+    margin: 40px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #2c3e50;
+  }
+  
+  form {
+    display: grid;
+    gap: 25px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #34495e;
+  }
+  
+  input, select {
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1rem;
+    background: #fff;
+  }
+  
+  button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.1rem;
+  }
+  
+  button:hover {
+    background-color: #27ae60;
+  }
+  
+  .error-message {
+    background-color: #e74c3c;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  

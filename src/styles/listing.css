@@ -1,0 +1,100 @@
+.page {
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #e3f2fd; /* Light blue background */
+    color: #0d47a1; /* Deep blue text */
+    padding: 10px; /* Add padding for better spacing */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.heading {
+    font-size: 2rem;
+    color: #0d47a1; /* Deep blue text */
+    margin: 0;
+}
+
+.post-job-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #1e88e5; /* Vibrant blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-job-btn:hover {
+    background-color: #1565c0; /* Darker blue */
+}
+
+.job-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start; /* Align items to the left */
+}
+
+.job-card {
+    background-color: #ffffff; /* White */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.job-card:hover {
+    transform: scale(1.05);
+}
+
+.job-card-header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.job-card-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333; /* Neutral dark gray */
+}
+
+.company-name {
+    display: block;
+    font-size: 1.1rem;
+    color: #555; /* Lighter dark gray */
+    margin-top: 5px;
+}
+
+.job-card-body {
+    font-size: 1rem;
+    color: #555;
+}
+
+.job-card-body p {
+    margin: 8px 0;
+}
+
+.job-card-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.apply-button {
+    background-color: #28a745; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-button:hover {
+    background-color: #218838; /* Darker green */
+}

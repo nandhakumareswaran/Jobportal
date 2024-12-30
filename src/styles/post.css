@@ -1,0 +1,74 @@
+/* Ensure both panels are centered and scrollable */
+.admin-post-page {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden; /* Prevents overflow beyond the container */
+}
+
+.left-panel, .right-panel {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+/* User card styling */
+.user-card {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-5px); /* Slight hover effect */
+}
+
+.user-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.user-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.user-card a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.user-card a:hover {
+  text-decoration: underline;
+}
+
+/* Style for the user applications section */
+.applications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .admin-post-page {
+    flex-direction: column;
+  }
+
+  .left-panel, .right-panel {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .user-card {
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}

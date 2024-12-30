@@ -1,0 +1,117 @@
+/* General page layout */
+.admin-post-page {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Panel Styles */
+.left-panel,
+.right-panel {
+  width: 48%; /* Ensure both panels take up equal space */
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Heading Styles (Consistent for Both Panels) */
+.left-panel h2,
+.right-panel h2 {
+  color: #4CAF50; /* Unified heading color */
+  font-size: 28px;
+  margin-bottom: 20px;
+  background-color: #f4f4f9;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Form Styles */
+.left-panel form div,
+.right-panel .applications-list div {
+  margin-bottom: 15px;
+}
+
+.left-panel label,
+.right-panel label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.left-panel input,
+.left-panel textarea,
+.right-panel input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Salary Field Style */
+.salary-column input {
+  text-align: right;
+}
+
+/* Button Styles */
+.left-panel button,
+.right-panel button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.left-panel button:hover,
+.right-panel button:hover {
+  background-color: #45a049;
+}
+
+/* User Applications Cards (Consistent with Post Style) */
+.user-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.user-card strong {
+  font-weight: bold;
+}
+
+/* Message Display */
+.admin-post-page p {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-post-page {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-panel,
+  .right-panel {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+

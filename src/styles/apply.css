@@ -1,0 +1,44 @@
+.apply-container {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .apply-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .apply-form input,
+  .apply-form select,
+  .apply-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
